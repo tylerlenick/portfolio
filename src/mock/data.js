@@ -58,11 +58,11 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'purina.jpg',
+    title: 'Purina Catchow myPerks',
     info: '',
     info2: '',
-    url: '',
+    url: 'https://myperks.catchow.com/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
