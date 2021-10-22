@@ -1,6 +1,13 @@
 import { nanoid } from 'nanoid';
 
 // HEAD DATA
+export const navbarData = {
+  title: '', // e.g: 'Name | Developer'
+  lang: '', // e.g: en, es, fr, jp
+  description: '', // e.g: Welcome to my website
+};
+
+// HEAD DATA
 export const headData = {
   title: '', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
@@ -9,8 +16,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
+  img: 'profile.jpg',
   title: '',
-  name: '',
+  name: 'Tyler Lenick',
   subtitle: '',
   cta: '',
 };
@@ -67,23 +75,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/tyler-lenick-069960ba/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/tylerlenick',
+    },
+    {
+      id: nanoid(),
+      name: 'twitter',
+      url: 'https://twitter.com/tylenick',
     },
   ],
 };
