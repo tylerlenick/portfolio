@@ -35,7 +35,7 @@ const Navbar = () => {
                         <a href="#contact-form" className="mr-5 hover:text-white font-semibold">
                             Contact
                         </a>
-                        <a href="./tyler_lenick_resume.pdf" target="_blank"><button class="font-semibold bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                        <a href="./tyler_lenick_resume.pdf" target="_blank"><button className="font-semibold bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                             Resume
                         </button></a>
                     </nav>

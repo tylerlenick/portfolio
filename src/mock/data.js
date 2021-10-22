@@ -30,6 +30,28 @@ export const aboutData = {
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  techs: [
+    {
+      id: nanoid(),
+      name: 'react',
+      url: 'https://reactjs.org/',
+    },
+    {
+      id: nanoid(),
+      name: 'node-js',
+      url: 'https://nodejs.org/en/',
+    },
+    {
+      id: nanoid(),
+      name: 'vuejs',
+      url: 'https://vuejs.org/',
+    },
+    {
+      id: nanoid(),
+      name: 'laravel',
+      url: 'https://laravel.com/',
+    },
+  ],
 };
 
 // PROJECTS DATA

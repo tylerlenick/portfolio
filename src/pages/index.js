@@ -14,6 +14,7 @@ export default () => {
         <meta charSet="utf-8" />
         <title>{title || 'Gatsby Simplefolio'}</title>
         <html lang={lang || 'en'} />
+        <script src="https://kit.fontawesome.com/02130b3d51.js" crossorigin="anonymous"></script>
         <meta name="description" content={description || 'Gatsby Simplefolio'} />
       </Helmet>
       <App />
