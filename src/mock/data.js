@@ -60,7 +60,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'purina.jpg',
     title: 'Purina Catchow myPerks',
-    info: '',
+    info: 'Brand loyalty site that allows consumers to receive points based on Purina product purchases. After receiving points, consumers can spend them for additional rewards.',
     info2: '',
     url: 'https://myperks.catchow.com/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up

@@ -12,7 +12,7 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'Gatsby Simplefolio'}</title>
+        <title>{title || 'tyler.dev'}</title>
         <html lang={lang || 'en'} />
         <script src="https://kit.fontawesome.com/02130b3d51.js" crossorigin="anonymous"></script>
         <meta name="description" content={description || 'Gatsby Simplefolio'} />
